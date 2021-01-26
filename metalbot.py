@@ -31,6 +31,7 @@ def metal_bands(names_generated=1):
             user_word = input("Type a random word: ")
             print(user_word + " " + metal_word)
         else:
+            new_word = new_word 
             random_word = random.choice(make_list("words.txt"))
             print(random_word + " " + metal_word.lower())
 
