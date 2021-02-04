@@ -13,6 +13,7 @@ Some examples:
 """
 
 import random
+import foobar
 
 def make_list(filehere):
     with open(filehere) as infile:
